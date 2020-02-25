@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:pro1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid x:Name="btn">
         <Label Content="Name:" HorizontalAlignment="Left" VerticalAlignment="Top"/>
         <TextBox x:Name="txt1" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Margin="0,26,0,0"/>
         <Label Content="Place" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,60,0,0"/>
@@ -15,6 +15,7 @@
         <TextBox x:Name="txt2" HorizontalAlignment="Left" Height="23" Margin="0,85,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txt3" HorizontalAlignment="Left" Height="23" Margin="0,143,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txt4" HorizontalAlignment="Left" Height="23" Margin="0,215,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="0,243,0,0" Click="Button_Click"/>
 
 
     </Grid>

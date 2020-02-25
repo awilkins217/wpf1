@@ -24,24 +24,25 @@ namespace pro1
     /// </summary>
     public partial class MainWindow : Window
     {
-        SqlCommand cmd;
-        SqlConnection con;
-        SqlDataAdapter da;
+        
         public MainWindow()
         {
             InitializeComponent();
         }
-        private void sub_Click(object sender, RoutedEventArgs e)
+        
+
+
+            
+
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-
-
-            try
+        try
             {
                 SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
                 builder.DataSource = "proj1.database.windows.net";
                 builder.UserID = "quiz";
                 builder.Password = "Ao09!556";
-                builder.InitialCatalog = "proj1";
+                builder.InitialCatalog = "app1";
 
                 using (SqlConnection connection = new SqlConnection(builder.ConnectionString))
                 {
@@ -53,9 +54,12 @@ namespace pro1
                     //sb.Append("INSERT INTO [dbo].[Table] (Id, Email, Name, Type, Date, Location, Description) ");
                     //sb.Append("VALUES ( " +"\'1\'," + "\'" +email_Box.Text + "\', \'" + name_Box.Text + "\', " + type.Text + "\', \'" + DateTime.Now.ToString() + "\' , \'" + Location.Text + "\', " + Descript.Text + "\');");
 
-                    sb.Append("INSERT INTO proj (name, place, date, accident) ");
-                    sb.Append("VALUES ('user', 'School', "+ "'"+DateTime.Now.ToString()+"', 'crAsh'" );
+                    sb.Append("INSERT INTO proj (Name, Place, Date, Accident) ");
+                    //sb.Append("VALUES ('user', 'School', "+ "'"+DateTime.Now.ToString()+"', 'crAsh'" );
+                    sb.Append("VALUES ('user', 'School', 'i', 'crAsh' );");
+                    //sb.Append("VALUES ('1', 'email', 'Sekol', 'crAsh', '" + DateTime.Now.ToString() + "', 'Ohio', 'Hit by a truck' );");
 
+                    
 
                     String sql = sb.ToString();
 
@@ -85,11 +89,12 @@ namespace pro1
             //MessageBox.Show(Location.Text);
             //MessageBox.Show(Descript.Text);
         }
+        }
     }
 
 
 
 
-}
+
     
 

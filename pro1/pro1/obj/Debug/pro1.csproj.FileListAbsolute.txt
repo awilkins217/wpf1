@@ -1,0 +1,15 @@
+C:\Users\wilkins_alona\Desktop\pro1\pro1\bin\Debug\pro1.exe.config
+C:\Users\wilkins_alona\Desktop\pro1\pro1\bin\Debug\pro1.exe
+C:\Users\wilkins_alona\Desktop\pro1\pro1\bin\Debug\pro1.pdb
+C:\Users\wilkins_alona\Desktop\pro1\pro1\obj\Debug\pro1.csprojAssemblyReference.cache
+C:\Users\wilkins_alona\Desktop\pro1\pro1\obj\Debug\MainWindow.g.cs
+C:\Users\wilkins_alona\Desktop\pro1\pro1\obj\Debug\App.g.cs
+C:\Users\wilkins_alona\Desktop\pro1\pro1\obj\Debug\pro1_MarkupCompile.cache
+C:\Users\wilkins_alona\Desktop\pro1\pro1\obj\Debug\pro1_MarkupCompile.lref
+C:\Users\wilkins_alona\Desktop\pro1\pro1\obj\Debug\MainWindow.baml
+C:\Users\wilkins_alona\Desktop\pro1\pro1\obj\Debug\pro1.g.resources
+C:\Users\wilkins_alona\Desktop\pro1\pro1\obj\Debug\pro1.Properties.Resources.resources
+C:\Users\wilkins_alona\Desktop\pro1\pro1\obj\Debug\pro1.csproj.GenerateResource.cache
+C:\Users\wilkins_alona\Desktop\pro1\pro1\obj\Debug\pro1.csproj.CoreCompileInputs.cache
+C:\Users\wilkins_alona\Desktop\pro1\pro1\obj\Debug\pro1.exe
+C:\Users\wilkins_alona\Desktop\pro1\pro1\obj\Debug\pro1.pdb
